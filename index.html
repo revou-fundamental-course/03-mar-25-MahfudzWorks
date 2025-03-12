@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <h2>Mahfudz Alfanani Syaviqi</h2>
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#myskills">MySkills</a></li>
+        <li><a href="#sertificate">Sertificate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+    <main>
+      <!-- Home-Page -->
+      <div id="home" class="home-container">
+        <div class="text-container fade-in-left">
+          <h1>Hallo semua, Saya</h1>
+          <h2>MAHFUDZ ALFANANI SYAVIQI</h2>
+          <h3>I'am a <span id="job-title"></span></h3>
+          <p>
+            Saya membuat situs web yang menakjubkan untuk Anda para pebisnis,
+            yang berpengalaman dalam desain dan pengembangan web.
+          </p>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/mahfudz.mahfudz.18062">
+              <div class="icon-wrapper">
+                <img src="assets/img/sosial-icon/Facebook.svg" alt="Facebook" />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/mahfudzalfa_/">
+              <div class="icon-wrapper">
+                <img
+                  src="assets/img/sosial-icon/Instagram.svg"
+                  alt="Instagram"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mahfudz-alfanani-syaviqi-572258321/"
+            >
+              <div class="icon-wrapper">
+                <img src="assets/img/sosial-icon/LinkedIn.svg" alt="LinkedIn" />
+              </div>
+            </a>
+            <a href="https://x.com/mahfudzalfa_">
+              <div class="icon-wrapper">
+                <img src="assets/img/sosial-icon/X.svg" alt="X" />
+              </div>
+            </a>
+          </div>
+          <button class="btn-cv">Download CV</button>
+        </div>
+        <div class="image-container fade-in-right">
+          <img src="assets/img/profile/Mask group.svg" alt="" />
+        </div>
+      </div>
+      <!-- About-Page -->
+      <div id="about" class="about-container">
+        <h1 class="fade-in-center">About Me</h1>
+        <div class="about-content">
+          <div class="about-image fade-in-left">
+            <img src="assets/img/profile/foto-about.jpg" alt="" />
+          </div>
+          <div class="about-text fade-in-right">
+            <h2>Hallo 👋 I'am <span>Mahfudz Alfanani Syaviqi</span></h2>
+            <h3>
+              A <span>Web Developer 💻</span> bassed in
+              <span>Indonesia</span> 🌏
+            </h3>
+            <p>
+              Hello everyone! I’am a Mahfudz Alfanani Syaviqi, a frontend mobile
+              and website developer. I’am a intermediate experienced and I hope
+              with this I can always learning something new to be able to invent
+              digital applications that can help many people in the future. Can
+              work alone or in a team.
+            </p>
+            <a
+              href="https://wa.me/082140363716"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="contact-btn">Contact Me</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- MySkills-Page -->
+      <div id="myskills" class="myskills-container fade-in">
+        <h1 class="fade-in-center">My Skills</h1>
+        <div class="myskills-content">
+          <div class="myskills-categories fade-in-left">
+            <span onclick="showPanel('programming')" class="active"
+              >💻 Programming Skills</span
+            >
+            <span onclick="showPanel('tools')">⚙️ Tools</span>
+            <div id="programming-panel" class="myskills-list">
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/programing-skills-icon/Html 5.png"
+                    alt="HTML"
+                  />
+                </div>
+                <p>HTML</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/programing-skills-icon/CSS3.png"
+                    alt="CSS"
+                  />
+                </div>
+                <p>CSS</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/programing-skills-icon/JavaScript.png"
+                    alt="JavaScript"
+                  />
+                </div>
+                <p>JavaScript</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/programing-skills-icon/PHP.png"
+                    alt="PHP"
+                  />
+                </div>
+                <p>PHP</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/programing-skills-icon/MySQL Logo.png"
+                    alt="MySQL"
+                  />
+                </div>
+                <p>MySQL</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/programing-skills-icon/Laravel.png"
+                    alt="Laravel"
+                  />
+                </div>
+                <p>Laravel</p>
+              </div>
+            </div>
+            <div id="tools-panel" class="myskills-list" style="display: none">
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/tools-icon/Visual Studio Code 2019.png"
+                    alt="VsCode"
+                  />
+                </div>
+                <p>VS Code</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img src="assets/img/tools-icon/GitHub.png" alt="GitHub" />
+                </div>
+                <p>GitHub</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img src="assets/img/tools-icon/Figma.png" alt="Figma" />
+                </div>
+                <p>Figma</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/tools-icon/Adobe Photoshop.png"
+                    alt="AdobePS"
+                  />
+                </div>
+                <p>Adobe Photoshop</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/tools-icon/Adobe Illustrator.png"
+                    alt="AdobeIL"
+                  />
+                </div>
+                <p>Adobe Illustrator</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/tools-icon/Microsoft Word.png"
+                    alt="MicrosoftW"
+                  />
+                </div>
+                <p>Microsoft Word</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/tools-icon/Microsoft Excel.png"
+                    alt="MicrosoftEX"
+                  />
+                </div>
+                <p>Microsoft Excel</p>
+              </div>
+              <div class="myskills-item">
+                <div class="img-container">
+                  <img
+                    src="assets/img/tools-icon/Microsoft PowerPoint.png"
+                    alt="MicrosoftPP"
+                  />
+                </div>
+                <p>Microsoft PowerPoint</p>
+              </div>
+            </div>
+          </div>
+          <div class="myskills-text fade-in-right">
+            <h3>Programming Skills 💻& Tools ⚙️</h3>
+            <p>
+              These are programming skills and tools that I have learned and
+              experienced
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Halaman Sertifikat -->
+      <div id="sertificate" class="sertificate-container">
+        <h1 class="fade-in-center">Sertificate</h1>
+        <div class="sertificate-grid fade-in-center">
+          <div class="sertificate-item">
+            <img
+              src="assets/img/sertificate/Sertificate DSF 34 - Front End Developer - Dibimbing.id.png"
+              alt="Sertifikat Front-End Dibimbing"
+            />
+            <p>Front-End Developer - Dibimbing.id</p>
+          </div>
+          <div class="sertificate-item">
+            <img
+              src="assets/img/sertificate/Sertificate SC Backend in Website Development MySkill.png"
+              alt="Sertifikat Backend MySkill"
+            />
+            <p>Backend in Website Development - MySkill</p>
+          </div>
+          <div class="sertificate-item">
+            <img
+              src="assets/img/sertificate/Sertificate Sonder 2025_ Designing a Future that Lasts.png"
+              alt="Sertifikat UX Sonder"
+            />
+            <p>Designing a Future that Lasts - Sonder 2025</p>
+          </div>
+          <div class="sertificate-item">
+            <img
+              src="assets/img/sertificate/SERTIFICATE WEBINAR HOW TO LEARN CODING.png"
+              alt="Sertifikat 4"
+            />
+            <p>Belajar Dasar Pemrograman Web - Dicoding</p>
+          </div>
+          <div class="sertificate-item">
+            <img
+              src="assets/img/sertificate/SERTIFICATE WEBINAR INTRODUTION UX DESIGN.png"
+              alt="Sertifikat 5"
+            />
+            <p>JavaScript Algorithms and Data Structures - freeCodeCamp</p>
+          </div>
+          <div class="sertificate-item">
+            <img
+              src="assets/img/sertificate/SERTIFICATE WEBINAR LEARNING WITH SERIOUS GAME.png"
+              alt="Sertifikat 6"
+            />
+            <p>Front-End Web Developer - Google</p>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button id="viewAllBtn" class="btn-viewAll">View All</button>
+          <button id="closeBtn" class="btn-close hidden">Tutup</button>
+        </div>
+      </div>
+      <!-- Contact-Page -->
+      <div id="contact" class="contact-container">
+        <h1 class="fade-in-center">Contact</h1>
+        <p class="contact-description">Feel Free To Contact Me</p>
+        <p class="contact-subtext">
+          I'am always open to discussing products design, collaboration work or
+          partnerships, just contact me with this media.
+        </p>
+        <div class="contact-info">
+          <div class="contact-box fade-in-center">
+            <img src="assets/img/contact-icon/WhatsApp.png" alt="WhatsApp" />
+            <div class="contact-text">
+              <p>WhatsApp</p>
+              <span>+62 82140363716</span>
+              <a href="https://wa.me/6282140363716" target="_blank"
+                >Send Me A Message</a
+              >
+            </div>
+          </div>
+          <div class="contact-box fade-in-center">
+            <img src="assets/img/contact-icon/Gmail.png" alt="Gmail" />
+            <div class="contact-text">
+              <p>Gmail</p>
+              <span>mahfudzworksss@gmail.com</span>
+              <a href="mailto:mahfudzworksss@gmail.com">Send Me A Message</a>
+            </div>
+          </div>
+          <div class="contact-box fade-in-center">
+            <img
+              src="assets/img/contact-icon/Telegram App.png"
+              alt="Telegram"
+            />
+            <div class="contact-text">
+              <p>Telegram</p>
+              <span>+62 82140363716</span>
+              <a href="https://t.me/your_telegram_username" target="_blank"
+                >Send Me A Message</a
+              >
+            </div>
+          </div>
+        </div>
+        <form class="contact-form fade-in-center">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Phone Number" />
+          <textarea placeholder="Message"></textarea>
+          <button class="btn-contact">Submit <span>&#x1F680;</span></button>
+        </form>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <h1>Mahfudz Alfanani Syaviqi</h1>
+        <h2 id="job-title-footer"></h2>
+        <ul class="footer-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#myskills">Skills</a></li>
+          <li><a href="#educations">Educations</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-social-icon">
+          <a href="https://www.facebook.com/mahfudz.mahfudz.18062">
+            <div class="footer-icon-wrapper fb">
+              <img src="assets/img/footer-sosial-icon/fb1.svg" alt="Facebook" />
+            </div>
+          </a>
+          <a href="https://www.instagram.com/mahfudzalfa_/">
+            <div class="footer-icon-wrapper ig">
+              <img
+                src="assets/img/footer-sosial-icon/ig1.svg"
+                alt="Instagram"
+              />
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mahfudz-alfanani-syaviqi-572258321/"
+          >
+            <div class="footer-icon-wrapper in">
+              <img src="assets/img/footer-sosial-icon/in1.svg" alt="LinkedIn" />
+            </div>
+          </a>
+          <a href="https://x.com/mahfudzalfa_">
+            <div class="footer-icon-wrapper x">
+              <img src="assets/img/footer-sosial-icon/x1.svg" alt="X" />
+            </div>
+          </a>
+        </div>
+        <h3>@ 2024 Created by Mahfudz Alfanani Syaviqi</h3>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
