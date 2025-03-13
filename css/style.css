@@ -1158,7 +1158,7 @@ body {
 }
 
 .footer-icon-wrapper.fb:hover::before {
-  background-image: url("assets/img/footer-sosial-icon/fb2.svg");
+  background-image: url("../assets/img/footer-sosial-icon/fb2.svg");
   opacity: 1;
 }
 
