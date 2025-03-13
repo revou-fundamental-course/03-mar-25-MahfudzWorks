@@ -1157,22 +1157,22 @@ body {
   opacity: 0;
 }
 
-.footer-icon-wrapper.fb:hover {
+.footer-icon-wrapper.fb {
   background-image: url("assets/img/footer-sosial-icon/fb2.svg");
   opacity: 1;
 }
 
-.footer-icon-wrapper.ig:hover {
+.footer-icon-wrapper.ig {
   background-image: url("assets/img/footer-sosial-icon/ig2.svg");
   opacity: 1;
 }
 
-.footer-icon-wrapper.in:hover {
+.footer-icon-wrapper.in {
   background-image: url("assets/img/footer-sosial-icon/in2.svg");
   opacity: 1;
 }
 
-.footer-icon-wrapper.x:hover {
+.footer-icon-wrapper.x {
   background-image: url("assets/img/footer-sosial-icon/x2.svg");
   opacity: 1;
 }
