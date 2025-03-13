@@ -26,5 +26,5 @@ Portofolio ini menjadi langkah awal saya dalam menampilkan **personal branding s
 - JavaScript
 
 👤 Kontak
-- LinkedIn: [Mahfudz Alfanani Syaviqi](www.linkedin.com/in/mahfudz-alfanani-syaviqi-572258321)
+- LinkedIn: [Mahfudz](www.linkedin.com/in/mahfudz-alfanani-syaviqi-572258321)
 - Email: [mahfudzworksss@gmail.com]
